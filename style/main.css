@@ -339,7 +339,7 @@ header.head {
 
 section#main {
     height: 100vh;
-    background-image: url(/images/main-background.jpg);
+    background-image: url(../images/main-background.jpg);
     margin-top: -120px;
     background-position: bottom;
 }
