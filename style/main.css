@@ -632,6 +632,7 @@ h2.gallery-block_head_title {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 100%;
+    flex: 0 0 100%;
 }
 
 .gallery-block_head_slider_prev:hover {
@@ -655,5 +656,7 @@ h2.gallery-block_head_title {
 }
 
 .gallery-block_slider_line {
-    display: -webkit-inline-box;
+    display: flex;
+    transform: translateX(0%);
+    transition: 0.3s;
 }
